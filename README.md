@@ -15,6 +15,14 @@ I utilized CVC-ClinicDB for training and evaluation. The dataset consists of end
 - Precision: 0.8574
 - Recall: 0.6678
 - Accuracy: 0.9530
+![Test_Imagesimage_mask_prediction6](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/8c497be9-0460-4e34-aab9-8c9aea2f879e)
+![Test_Imagesimage_mask_prediction5](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/a1cbdc2e-7653-49fa-850f-167662b5d9dd)
+![Test_Imagesimage_mask_prediction4](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/10fcd888-cf77-4d92-8d37-ea9c5a0610d9)
+![Test_Imagesimage_mask_prediction3](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/8e7d7b26-51e9-41d6-a56f-bc489c5808e7)
+![Test_Imagesimage_mask_prediction2](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/4414a632-d7a8-4dda-bd67-4b8c628be2fe)
+![Test_Imagesimage_mask_prediction1](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/9776b5ff-647f-4834-a869-be7c31be04a5)
+![Test_Imagesimage_mask_prediction0](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/b77a9bc9-4984-4cc8-940c-987d61ecc9dc)
+![Test_Imagesimage_mask_prediction7](https://github.com/MohamedSameh10/Polyp_Segmentation_UNet/assets/55671037/2226fb74-2637-4b25-92a0-996d96d528b7)
 
 ## Model Architecture
 ```python
