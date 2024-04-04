@@ -58,23 +58,19 @@ def unet_model():
     up1 = Conv2DTranspose(256,(2,2),strides=(2,2),padding='same')(bridge)
     merge1 = Concatenate(axis=3)([up1, conv3])
     up1 = Conv2D(256, 3, activation='relu', padding='same')(merge1)
-    up1 = BatchNormalization()(up1)
     up1 = Conv2D(256, 3, activation='relu', padding='same')(up1)
-    up1 = BatchNormalization()(up1)
+    
 
     up2 = Conv2DTranspose(128,(2,2),strides=(2,2),padding='same')(up1)
     merge2 = Concatenate(axis=3)([up2, conv2])
     up2 = Conv2D(128, 3, activation='relu', padding='same')(merge2)
-    up2 = BatchNormalization()(up2)
     up2 = Conv2D(128, 3, activation='relu', padding='same')(up2)
-    up2 = BatchNormalization()(up2)
+    
 
     up3 = Conv2DTranspose(64,(2,2),strides=(2,2),padding='same')(up2)
     merge3 = Concatenate(axis=3)([up3, conv1])
     up3 = Conv2D(64, 3, activation='relu', padding='same')(merge3)
-    up3 = BatchNormalization()(up3)
     up3 = Conv2D(64, 3, activation='relu', padding='same')(up3)
-    up3 = BatchNormalization()(up3)
 
     # Output layer
     outputs = Conv2D(1, 1, activation='sigmoid')(up3)
